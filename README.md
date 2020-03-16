@@ -1,3 +1,6 @@
+Prerequisites: Haskell and stack installed, see
+https://docs.haskellstack.org/en/stable/README/.
+
 To use this tool, inside the tool directory, type:
 
 1. stack setup
