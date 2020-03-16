@@ -28,7 +28,9 @@ tu   -> (t)(u)
 x    -> x
 
 
-Example: (λx.xx)(λy.y)  (\x.(x)(x))(\\y.y)
+Example: (λx.xx)(λy.y) -> (\\x.(x)(x))(\\y.y)
+
+Command example: run "(\\x.(x)(x))(\\y.y)" 0
  
 
 
