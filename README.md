@@ -21,4 +21,15 @@ computed. It outputs the run in a file named run.run . This functions is needed
 when one wants to see the first n steps of a divergent computation.
 
 
+Lambda-term syntax:
+
+tu   -> (t)(u)
+λx.t -> \\x.t
+x    -> x
+
+
+Example: (λx.xx)(λy.y)  (\x.(x)(x))(\\y.y)
+ 
+
+
 
